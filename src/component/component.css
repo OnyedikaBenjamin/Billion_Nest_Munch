@@ -1,0 +1,20 @@
+.side-nav-div{
+    width: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 40px;
+    transform: rotate(90deg);
+    position: fixed;
+    left: 90%;
+    top: 280px;
+    z-index: 1;
+ 
+
+}
+.btn1 ,.btn2{
+    background-color: black;
+    border-radius: 0%;
+    opacity: 60%;
+    color: white;
+   
+}

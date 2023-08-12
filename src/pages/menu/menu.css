@@ -1,0 +1,214 @@
+.parenta{
+  background: url(/src/assets/backgroundimage1.jpg) no-repeat center center fixed;
+    display: flex;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    margin-bottom: 0px;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+  .top-container{
+    width: 100%;
+    margin-bottom: 1px;
+  }
+  
+  .bell{
+    float: right;
+    background-color: rgb(157, 20, 20);
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+  }
+  .logo{
+    height: 160px;
+    width: 220px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .middle-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 30%;
+    background: none;
+    flex-direction: column;
+
+    .options{
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  .menu-button{
+    /* background: rgb(157, 20, 20, 0.3); */
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        border: 2px solid  rgb(249, 189, 91, 0.5);
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        position: relative;
+        overflow: hidden;
+        transition: background-color 0.3s;
+  }
+
+  
+  .bookatable-button{
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        border: 2px solid  rgb(249, 189, 91, 0.5);
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        position: relative;
+        overflow: hidden;
+        transition: background-color 0.3s;
+  }
+
+  
+  .menu-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(157, 20, 20, 0.9); 
+    transition: left 0.5s;
+    pointer-events: none;
+  }
+  
+  .menu-button:hover::before {
+    left: 0;
+  }
+
+  .bookatable-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(157, 20, 20, 0.9); 
+    transition: left 0.5s;
+    pointer-events: none;
+  }
+  
+  .bookatable-button:hover::before {
+    left: 0;
+  }
+
+  
+
+
+.menu-text{
+    color: rgb(249, 189, 91);
+}
+.down-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facebook-cont ,.instagram-cont{
+    border-radius: 0%;
+    color: white;
+}
+.facebook, .instagram{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 2px solid  rgb(249, 189, 91, 0.3);
+}
+
+.logo-container {
+  width: 30%;
+  border: 1px solid rgba(225, 208, 182, 1);
+}
+
+.navbar {
+  width: 45%;
+  border: 1px solid rgba(225, 208, 182, 1);
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-start;
+  padding-right: 10%;
+}
+
+li {
+  margin: 10%;
+}
+
+a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.menu-container {
+  width: 80%;
+  margin: 5%;
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+
+
+#loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Make sure the overlay is on top of other elements */
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Hide the overlay when the content is loaded */
+#content {
+  display: none;
+}

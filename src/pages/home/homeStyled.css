@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container {
+  margin: 75% 0;
+}
+
+.text-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 5px 15px;
+  transform: translate(-50%, -50%);
+  background: gray;
+  color: white;
+  border-radius: 20px;
+  font-size: 50px;
+}
+
+.reserve-container {
+  height: 60vh;
+  background-color: rgb(225, 208, 182);
+}
+
+.reserve-container p {
+  color: #20241a;
+  margin-top: 3%;
+  font-size: 16px;
+}
+
+.reserve-container h1 {
+  color: #20241a;
+  font-size: 42px;
+  justify-content: space-between;
+}
+
+.reserve-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.title-container {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.select-guest {
+  display: flex;
+  width: 100%;
+  background-color: aqua;
+  padding-left: 30%;
+  align-items: center;
+  border: 3px;
+  margin-top: 5%;
+  gap: 3%;
+}
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-input {
+  width: 100%;
+  border-radius: 10px;
+  height: 50px;
+  padding: 2%;
+}
+
+.dropdown-menu {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  background-color: #ffffff;
+  border: 1px solid #d5d2d2;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  /* padding: 10px; */
+  cursor: pointer;
+}
+
+.dropdown-menu li {
+  padding: 3%;
+  font-size: small;
+}
+
+.dropdown-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.dropdown-icon.open {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.form-row {
+  display: flex;
+  gap: 10%;
+}
+
+input {
+  border: 1px solid #000000;
+  height: 40px;
+  width: 250px;
+  border-radius: 3px;
+  background-color: rgb(225, 208, 182);
+}
+
+.submit-button {
+  font-size: 14px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  width: 100px;
+  color: #e1d0b6;
+  height: 40px;
+  margin-left: 3%;
+  background-color: #20241a;
+}
+
+.bookatable {
+  height: 600px;
+  width: calc();
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+  background: url("/src/assets/bookaba.png") no-repeat center center fixed;
+}
+
+.topoval {
+  width: 330px;
+  height: 165px;
+  background-color: #e1d0b6;
+  border-radius: 50%/100% 100% 0 0;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .sparkle {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 72px;
+    top: 30px;
+  }
+  .reservation-but {
+    background: rgb(157, 20, 20);
+    border-radius: 100px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(249, 189, 91);
+    width: 160px;
+    height: 47px;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .reservation-but:hover {
+    background: rgba(0, 0, 0, 0.809);
+  }
+}
+.middlecilinder {
+  height: 100px;
+  width: 330px;
+  background-color: #e1d0b6;
+}
+.bottomoval {
+  width: 330px;
+  height: 165px;
+  background-color: #e1d0b6;
+  border-radius: 50%/100% 100% 0 0;
+  transform: scaleY(-1);
+  position: relative;
+  overflow: hidden;
+}
+.address-div {
+  font-size: 40px;
+  color: rgb(32, 36, 26);
+}
+.opening-hours {
+  position: relative;
+  bottom: 140px;
+  .heading {
+    font-size: 20px;
+    font-weight: 600px;
+  }
+  .open-time {
+    margin-bottom: 3px;
+    font-weight: 400;
+  }
+}
+.down-sparkle {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: 200px;
+  top: 100px;
+  left: 100px;
+}

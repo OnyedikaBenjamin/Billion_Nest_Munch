@@ -1,0 +1,59 @@
+{
+  "name": "thenestlounge",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@mantine/core": "^6.0.16",
+    "@mantine/hooks": "^6.0.16",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "emailjs-com": "^3.2.0",
+    "node-sass": "^9.0.0",
+    "react": "^18.2.0",
+    "react-calendar": "^4.6.0",
+    "react-datepicker": "^4.16.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-parallax": "^3.5.1",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
+    "react-scroll-parallax": "^3.4.2",
+    "react-select": "^5.7.3",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "scrollreveal": "^4.0.9",
+    "styled-components": "^6.0.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "3.0.0"
+  }
+}

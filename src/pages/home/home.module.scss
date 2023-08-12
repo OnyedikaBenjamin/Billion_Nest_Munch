@@ -1,0 +1,147 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  padding: 100px;
+  font-family: inter;
+
+  .navbar {
+    height: 172px;
+    width: 100%;
+    background-color: rgb(83, 78, 51);
+    // opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    border: 1px gold solid;
+    color: yellow;
+
+    .left,
+    .right {
+      display: flex;
+      align-items: center;
+      // justify-content: center;
+      padding: 0 24px;
+    }
+
+    .up {
+      flex: 1;
+      border-bottom: 1px gold solid;
+      display: flex;
+      flex-wrap: wrap;
+
+      .left {
+        flex: 1;
+        border-right: 1px gold solid;
+      }
+
+      .right {
+        flex: 1.5;
+        justify-content: flex-end;
+        gap: 24px;
+        padding: 0 16px;
+
+        a {
+          text-transform: capitalize;
+          text-decoration: none;
+          color: gold;
+        }
+      }
+    }
+
+    .down {
+      flex: 1.5;
+      display: flex;
+
+      .left {
+        flex: 1.4;
+        border-right: 1px gold solid;
+      }
+
+      .right {
+        flex: 1.1;
+      }
+    }
+  }
+}
+
+.container2 {
+  // height: 110vh;
+  width: 100%;
+  // padding: 100px;
+  font-family: inter;
+
+  header {
+    height: 400px;
+    display: flex;
+    // gap: 12px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: rgb(225, 208, 182);
+    flex-direction: column;
+    padding: 0 100px;
+  }
+
+  main {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    .up,
+    .down {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      width: 50%;
+      align-items: center;
+    }
+
+    .up {
+      background-color: rgb(225, 208, 182);
+      align-items: center;
+      .div {
+        width: 50%;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+      }
+      button {
+        align-self: start;
+        margin: 5%;
+      }
+    }
+
+    .down {
+      background-color: rgb(32, 36, 26);
+      justify-content: flex-end;
+      align-items: center;
+      .bar {
+        border: 2px solid rgb(225, 208, 182);
+        height: 90%;
+        border-radius: var(--rd, 5px);
+        width: 60%;
+        padding: 10%;
+        margin-top: 10%;
+        top: 0;
+        right: 0;
+        box-shadow: var(--shd, 0, 1px, 4px, rgba(0, 0, 0, 0.6));
+      }
+    }
+  }
+}
+
+.container3 {
+  width: 100%;
+
+  .up {
+    height: 200px;
+    background-color: rgb(32, 36, 26);
+  }
+
+  .down {
+    height: 750px;
+    width: 50%;
+    background-color: rgb(32, 36, 26);
+  }
+}

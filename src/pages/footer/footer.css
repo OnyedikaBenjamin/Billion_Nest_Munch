@@ -1,0 +1,126 @@
+.container {
+  width: 100%;
+  border: 1px solid rgb(41, 40, 40);
+  background-color: rgb(32, 36, 26);
+  height: 400px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  position: absolute;
+}
+.upper-div {
+  border: 1px solid rgb(225, 208, 182);
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  width: 100%;
+  margin-top: 2%;
+}
+.one {
+  border: 1px solid rgb(225, 208, 182);
+  height: 100px;
+  display: grid;
+  place-items: center;
+}
+.two {
+  border: 1px solid rgb(225, 208, 182);
+  height: 100px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  padding: 10px;
+}
+.three {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.lower-div {
+  border: 1px solid rgb(225, 208, 182);
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: 5% 72% 18% 5%;
+  width: 100%;
+}
+.four {
+  border: 1px solid rgb(225, 208, 182);
+
+  height: 100px;
+}
+.five {
+  border: 1px solid rgb(225, 208, 182);
+
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.sub-button {
+  color: white;
+  padding: 15px;
+  width: 150px;
+  border-radius: 0%;
+  background-color: transparent;
+  border: 1px solid white;
+}
+.sub-button:hover {
+  color: black;
+  background-color: white;
+}
+.email-input {
+  outline: 0;
+  background-color: transparent;
+  border: 0;
+  border: 1px solid rgb(225, 208, 182);
+}
+
+.six {
+  border: 1px solid rgb(225, 208, 182);
+
+  height: 100px;
+  text-align: center;
+  font-size: small;
+}
+.copyright {
+  margin-top: 10%;
+}
+.seven {
+  border: 1px solid rgb(225, 208, 182);
+
+  height: 100px;
+  font: 100;
+}
+.side-nav-div {
+  width: 270px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50px;
+  transform: rotate(90deg);
+  position: fixed;
+  left: 88.5%;
+  top: 340px;
+}
+
+.btn1,
+.btn2 {
+  background-color: black;
+  border-radius: 0%;
+  opacity: 60%;
+  color: white;
+  font-size: 17px;
+  border: 1px solid rgb(225, 208, 182);
+}
+.btn2:hover {
+  color: black;
+  background-color: rgb(236, 222, 222);
+}
+.btn1:hover {
+  color: black;
+  background-color: rgb(236, 222, 222);
+}
